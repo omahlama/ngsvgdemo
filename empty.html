@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Angular SVG demo</title>
+</head>
+<body ng-app="myApp">
+<div ng-controller="SvgCtrl">
+  <h1>{{greeting}}</h1>
+</div>
+<script type="text/javascript" src="http://code.angularjs.org/1.2.0rc1/angular.min.js"></script>
+<script type="text/javascript">
+  var myApp = angular.module('myApp',[]);
+
+  function SvgCtrl($scope) {
+    $scope.greeting = 'Angular 2-way binding is cool';
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+#mysvg {
+    width: 700px; height: 700px; border: thin solid #999;
+    float: left;
+}
+
+.textStyle {
+    font-family: 'Comic Sans MS';
+    font-size: 48px;
+}
+
+.controls {
+    float: left;
+    width: 400px;
+    margin: 0 30px;
+    padding: 20px;
+    border: thin solid salmon;
+}
